@@ -4,30 +4,28 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: Arial, Helvetica, sans-serif;
+body {
   height: 100%;
   background-color: #111;
 }
 
+$font-family : 'Hind',
+sans-serif;
+$colorButtonEdit : lime;
+$colorButtonRemove : red;
+
+@mixin editRemoveButton {
+  font-size: 1.4rem;
+  margin: 0 0.5rem;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+@import "./heading";
 @import "./input-div";
 @import "./container";
 @import "./edit-button";
 @import "./remove-botton";
 @import "./add-button";
 @import "./item";
-
-
-h1 {
-  font-size: 3rem;
-  font-weight: 50;
-  margin: 1rem 0 3rem;
-  text-align: center;
-  color: #ffffff;
-  font-family: 'Hind', sans-serif;
-
-  .styling {
-    font-weight: 800;
-    color: lime;
-  }
-}

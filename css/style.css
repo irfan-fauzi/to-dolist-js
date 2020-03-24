@@ -5,10 +5,23 @@
           box-sizing: border-box;
 }
 
-html {
-  font-family: Arial, Helvetica, sans-serif;
+body {
   height: 100%;
   background-color: #111;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 50;
+  margin: 1rem 0 3rem;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Hind", sans-serif;
+}
+
+h1 .styling {
+  font-weight: 800;
+  color: lime;
 }
 
 .input-div {
@@ -55,6 +68,32 @@ html {
   margin-top: 2rem;
 }
 
+.editButton {
+  font-size: 1.4rem;
+  margin: 0 0.5rem;
+  background: none;
+  outline: none;
+  border: none;
+  color: lime;
+}
+
+.editButton:hover {
+  color: #2ece2e;
+}
+
+.removeButton {
+  font-size: 1.4rem;
+  margin: 0 0.5rem;
+  background: none;
+  outline: none;
+  border: none;
+  color: red;
+}
+
+.removeButton:hover {
+  color: #b81515;
+}
+
 .addButton {
   height: 50px;
   width: 50px;
@@ -84,19 +123,5 @@ html {
   color: #ffffff;
   width: 400px;
   font-size: 1.4rem;
-}
-
-h1 {
-  font-size: 3rem;
-  font-weight: 50;
-  margin: 1rem 0 3rem;
-  text-align: center;
-  color: #ffffff;
-  font-family: 'Hind', sans-serif;
-}
-
-h1 .styling {
-  font-weight: 800;
-  color: lime;
 }
 /*# sourceMappingURL=style.css.map */

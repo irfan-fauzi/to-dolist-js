@@ -1,0 +1,9 @@
+.removeButton {
+    @include editRemoveButton();
+    color: $colorButtonRemove;
+
+    &:hover {
+        color: rgb(184, 21, 21);
+    }
+
+}

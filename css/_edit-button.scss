@@ -1,0 +1,8 @@
+.editButton {
+    @include editRemoveButton();
+    color: $colorButtonEdit();
+
+    &:hover {
+        color: rgb(46, 206, 46);
+    }
+}
