@@ -1,0 +1,22 @@
+.input-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    .input {
+        padding: 0.5ren 1rem;
+        height: 50px;
+        outline: none;
+        background-color: white;
+        width: 450px;
+        font-size: 1.15rem;
+        padding: 1rem 2rem;
+        margin: 0.25rem;
+        border-radius: 25px;
+        border: none;
+
+
+    }
+
+}

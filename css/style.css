@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  background-color: #111;
+}
+
+.input-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input-div .input {
+  padding: 0.5ren 1rem;
+  height: 50px;
+  outline: none;
+  background-color: white;
+  width: 450px;
+  font-size: 1.15rem;
+  padding: 1rem 2rem;
+  margin: 0.25rem;
+  border-radius: 25px;
+  border: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+.addButton {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  outline: none;
+  background-color: lime;
+  color: white;
+  outline: none;
+  border: none;
+  margin: 0.25px;
+}
+
+.addButton:hover {
+  opacity: 0.7;
+}
+
+.item {
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 4px solid #ffffff;
+}
+
+.item .item-input {
+  background: none;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  width: 400px;
+  font-size: 1.4rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 50;
+  margin: 1rem 0 3rem;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Hind', sans-serif;
+}
+
+h1 .styling {
+  font-weight: 800;
+  color: lime;
+}
+/*# sourceMappingURL=style.css.map */
